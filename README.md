@@ -44,6 +44,7 @@ Here’s an overview of the files included in the project:
 4. Create the Database:
    - Open your MySQL server (using phpMyAdmin or the command line).
    - Create a new database by running the SQL script in jail-sql.txt:
+     <br>
      ``bash
      CREATE DATABASE IF NOT EXISTS jail;
      USE jail;
@@ -57,6 +58,7 @@ Here’s an overview of the files included in the project:
 5. Configure the Database Connection:
    <br>
    - Open the jail-dbcon.php file and adjust the database credentials if needed:
+     <br>
      ``bash
      $host = 'localhost';
      $username = 'root'; // Default username for MySQL in XAMPP/WAMP
@@ -67,6 +69,7 @@ Here’s an overview of the files included in the project:
 
 - Start your web server.
 - Access the project via your browser:
+  <br>
 ``bash
 http://localhost/jail-visitor-management/index.php
 ``
