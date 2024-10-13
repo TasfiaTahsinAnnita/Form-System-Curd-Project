@@ -34,19 +34,17 @@ Here’s an overview of the files included in the project:
 
 ## Installation and Setup
 1. Clone the repository:
-
-``bash
+   ``bash
 git clone https://github.com/your-username/jail-visitor-management.git
 ``
 <br>
 2. Move the project files to your web server’s document root:
-
-- For XAMPP: Move the files to htdocs/.
-- For WAMP: Move the files to www/.
+   - For XAMPP: Move the files to htdocs/.
+   - For WAMP: Move the files to www/.
   <br>
 3. Create the Database:
-- Open your MySQL server (using phpMyAdmin or the command line).
-- Create a new database by running the SQL script in jail-sql.txt:
+   - Open your MySQL server (using phpMyAdmin or the command line).
+   - Create a new database by running the SQL script in jail-sql.txt:
   <br>
 ``bash
 CREATE DATABASE IF NOT EXISTS jail;
@@ -59,8 +57,7 @@ CREATE TABLE IF NOT EXISTS visitors (
 );
 ``
 4. Configure the Database Connection:
-
-- Open the jail-dbcon.php file and adjust the database credentials if needed:
+   - Open the jail-dbcon.php file and adjust the database credentials if needed:
 ``bash
 $host = 'localhost';
 $username = 'root'; // Default username for MySQL in XAMPP/WAMP
@@ -74,6 +71,8 @@ $dbname = 'jail';
 ``bash
 http://localhost/jail-visitor-management/index.php
 ``
+
+
 ## Usage
 - Navigate to the home page where you will find links to:
 - Add new visitors.
