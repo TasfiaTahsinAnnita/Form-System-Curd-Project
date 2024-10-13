@@ -35,36 +35,35 @@ Here’s an overview of the files included in the project:
 ## Installation and Setup
 1. Clone the repository:
    ``bash
-git clone https://github.com/your-username/jail-visitor-management.git
-``
-<br>
-2. Move the project files to your web server’s document root:
+   git clone https://github.com/your-username/jail-visitor-management.git
+   ``
+3. Move the project files to your web server’s document root:
    - For XAMPP: Move the files to htdocs/.
    - For WAMP: Move the files to www/.
-  <br>
-3. Create the Database:
+     
+4. Create the Database:
    - Open your MySQL server (using phpMyAdmin or the command line).
    - Create a new database by running the SQL script in jail-sql.txt:
-  <br>
-``bash
-CREATE DATABASE IF NOT EXISTS jail;
-USE jail;
-CREATE TABLE IF NOT EXISTS visitors (
-    id INT(11) AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(100) NOT NULL,
-    age INT(3) NOT NULL,
-    visit_date DATE NOT NULL
-);
-``
-4. Configure the Database Connection:
+     ``bash
+     CREATE DATABASE IF NOT EXISTS jail;
+     USE jail;
+     CREATE TABLE IF NOT EXISTS visitors (
+     id INT(11) AUTO_INCREMENT PRIMARY KEY,
+     name VARCHAR(100) NOT NULL,
+     age INT(3) NOT NULL,
+     visit_date DATE NOT NULL
+     );
+     ``
+5. Configure the Database Connection:
+   <br>
    - Open the jail-dbcon.php file and adjust the database credentials if needed:
-``bash
-$host = 'localhost';
-$username = 'root'; // Default username for MySQL in XAMPP/WAMP
-$password = '';     // Default password is empty
-$dbname = 'jail';
-``
-5. Run the Application:
+     ``bash
+     $host = 'localhost';
+     $username = 'root'; // Default username for MySQL in XAMPP/WAMP
+     $password = '';     // Default password is empty
+     $dbname = 'jail';
+     ``
+6. Run the Application:
 
 - Start your web server.
 - Access the project via your browser:
