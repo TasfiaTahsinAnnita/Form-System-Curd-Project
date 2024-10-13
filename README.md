@@ -68,7 +68,7 @@ Here’s an overview of the files included in the project:
      ``
 5. Run the Application:
    - Start your web server.
-   - - Access the project via your browser:
+   - Access the project via your browser:
        <br>
        ``bash
        http://localhost/jail-visitor-management/index.php
