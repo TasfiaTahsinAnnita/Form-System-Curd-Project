@@ -2,11 +2,11 @@
 This is a simple CRUD (Create, Read, Update, Delete) web application designed to manage visitor information for a jail facility. The project is built using PHP and MySQL.
 
 ## Table of Contents
-- Features
-- File Structure
-- Requirements
-- Installation and Setup
-- Usage
+1. Features
+2. File Structure
+3. Requirements
+4. Installation and Setup
+5. Usage
 
 ## Features
 - Create Visitor: Add new visitor details such as name, age, and visit date.
