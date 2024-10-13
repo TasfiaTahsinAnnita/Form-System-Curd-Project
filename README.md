@@ -39,7 +39,7 @@ Here’s an overview of the files included in the project:
 git clone https://github.com/your-username/jail-visitor-management.git
 ``
 <br>
-1. Move the project files to your web server’s document root:
+2. Move the project files to your web server’s document root:
 
 - For XAMPP: Move the files to htdocs/.
 - For WAMP: Move the files to www/.
