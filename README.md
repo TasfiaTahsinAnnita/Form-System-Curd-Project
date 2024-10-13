@@ -67,14 +67,12 @@ Here’s an overview of the files included in the project:
      $dbname = 'jail';
      ``
 5. Run the Application:
-
-- Start your web server.
-- Access the project via your browser:
-  <br>
-``bash
-http://localhost/jail-visitor-management/index.php
-``
-
+   - Start your web server.
+   - - Access the project via your browser:
+       <br>
+       ``bash
+       http://localhost/jail-visitor-management/index.php
+       ``
 
 ## Usage
 - Navigate to the home page where you will find links to:
