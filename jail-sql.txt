@@ -3,6 +3,6 @@ CREATE TABLE jail_visitors (
   visitor_name VARCHAR(255) NOT NULL,
   visitor_id VARCHAR(255) NOT NULL,
   appointment_date DATE NOT NULL,
-  visiting_time TIME NOT NULL, -- Added visiting time column in the db
+  visiting_time TIME NOT NULL, -- Added visiting time column
   reason_for_visit TEXT NOT NULL
 );
