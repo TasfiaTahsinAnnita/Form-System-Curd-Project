@@ -56,7 +56,7 @@ Here’s an overview of the files included in the project:
      visit_date DATE NOT NULL
      );
      ``
-4. Configure the Database Connection:
+4. Config the Database Connection:
    <br>
    - Open the jail-dbcon.php file and adjust the database credentials if needed:
      <br>
